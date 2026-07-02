@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر تطبيقات التلفاز</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+ 
+        <img src="logo.png" alt="شعار متجر تطبيقات التلفاز" class="site-logo">
+        
+        <h1>متجر تطبيقات Smart TV</h1>
+        <p>حمل أفضل تطبيقات التلفاز والأندرويد بروابط مباشرة</p>
+    </header>
+
+    <main class="container">
+        <!-- كرت التطبيق الأول -->
+        <div class="app-card">
+            <img src="https://via.placeholder.com/100" alt="أيقونة التطبيق">
+            <h3>تطبيق المشغل الذكي</h3>
+            <p>أفضل تطبيق لتشغيل ملفات القنوات والفيديو على التلفاز.</p>
+            <!-- استبدل اسم الملف باسم تطبيقك الحقيقي في مجلد apps -->
+            <a href="apps/player-app.apk" class="download-btn" download>تحميل APK</a>
+        </div>
+
+        <!-- كرت التطبيق الثاني -->
+        <div class="app-card">
+            <img src="https://via.placeholder.com/100" alt="أيقونة التطبيق">
+            <h3>تطبيق تصفح الملفات</h3>
+            <p>لتصفح وإدارة ملفات التلفاز بكل سهولة وسرعة.</p>
+            <a href="apps/file-manager.apk" class="download-btn" download>تحميل APK</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>جميع الحقوق محفوظة © 2026</p>
+    </footer>
+
+</body>
+</html>
